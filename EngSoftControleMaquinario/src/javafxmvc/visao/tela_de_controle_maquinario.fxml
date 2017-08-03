@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="200.0" layoutY="92.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button layoutX="41.0" layoutY="334.0" mnemonicParsing="false" text="Monitorar" />
+      <Button layoutX="119.0" layoutY="334.0" mnemonicParsing="false" text="Manutençao" />
+      <Button layoutX="476.0" layoutY="124.0" mnemonicParsing="false" text="Inserir" />
+      <Button layoutX="476.0" layoutY="180.0" mnemonicParsing="false" text="Alterar" />
+      <Button layoutX="476.0" layoutY="243.0" mnemonicParsing="false" text="Excluir" />
+      <Button layoutX="534.0" layoutY="340.0" mnemonicParsing="false" text="Voltar" />
+   </children>
+</AnchorPane>

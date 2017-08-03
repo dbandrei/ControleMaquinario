@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="269.0" layoutY="113.0" mnemonicParsing="false" text="Maquinário" />
+      <Button layoutX="277.0" layoutY="175.0" mnemonicParsing="false" text="Peças" />
+      <Button layoutX="274.0" layoutY="237.0" mnemonicParsing="false" text="Operador" />
+      <Button layoutX="525.0" layoutY="8.0" mnemonicParsing="false" text="Sair" />
+      <Label layoutX="286.0" layoutY="25.0" text="Principal" />
+   </children>
+</AnchorPane>
