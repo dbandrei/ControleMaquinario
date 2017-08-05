@@ -6,13 +6,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmvc.controller.FXMLVBoxMainController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmvc.controller.tela_principal_controller">
    <children>
       <MenuBar>
         <menus>
           <Menu mnemonicParsing="false" text="Cadastros">
             <items>
-                  <MenuItem fx:id="menuItemCadastrosMaquinario" mnemonicParsing="false" onAction="#handleMenuItemCadastrosMaquinario" text="Maquinário" />
+                  <MenuItem fx:id="menuItemCadastrosMaquinario" mnemonicParsing="false" text="Maquinário" />
               <MenuItem fx:id="menuItemCadastrosOperador" mnemonicParsing="false" text="Operador" />
                   <MenuItem fx:id="menuItemCadastrosPecas" mnemonicParsing="false" text="Peças" />
                   <MenuItem fx:id="menuItemCadastrosTalhao" mnemonicParsing="false" text="Talhão" />
@@ -20,19 +20,9 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Processos">
             <items>
-              <MenuItem fx:id="menuItemProcessosVendas" mnemonicParsing="false" onAction="#handleMenuItemProcessosVendas" text="Vendas" />
+              <MenuItem fx:id="menuItemProcessosMaquinario" mnemonicParsing="false" text="Maquinário" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Gráficos">
-            <items>
-              <MenuItem fx:id="menuItemGraficosVendasPorMes" mnemonicParsing="false" onAction="#handleMenuItemGraficosVendasPorMes" text="Vendas por Mês" />
-            </items>
-          </Menu>
-            <Menu mnemonicParsing="false" text="Relatórios">
-              <items>
-                <MenuItem fx:id="menuItemRelatoriosQuantidadeProdutosEstoque" mnemonicParsing="false" text="Quantidade de Produtos em Estoque" />
-              </items>
-            </Menu>
         </menus>
       </MenuBar>
       <AnchorPane fx:id="anchorPane" prefHeight="378.0" prefWidth="600.0" />

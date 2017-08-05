@@ -3,7 +3,7 @@ package javafxmvc;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class Principal extends Application {
@@ -15,7 +15,7 @@ public class Principal extends Application {
     
     @Override
     public void start(Stage stage) {
-        AnchorPane FrmPrincipal = null;
+        VBox FrmPrincipal = null;
         try {
             FrmPrincipal = FXMLLoader.load(getClass().getResource("visao/tela_principal.fxml"));
         } catch (Exception ex) {

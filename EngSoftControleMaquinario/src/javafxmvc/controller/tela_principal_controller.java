@@ -22,11 +22,7 @@ public class tela_principal_controller implements Initializable {
     @FXML
     private MenuItem menuItemCadastrosTalhao;
     @FXML
-    private MenuItem menuItemProcessosVendas;
-    @FXML
-    private MenuItem menuItemGraficosVendasPorMes;
-    @FXML
-    private MenuItem menuItemRelatoriosQuantidadeProdutosEstoque;
+    private MenuItem menuItemProcessosMaquinario;
     @FXML
     private AnchorPane anchorPane;
     
