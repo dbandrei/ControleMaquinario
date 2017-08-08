@@ -10,15 +10,16 @@ public class Maquinario {
 
     public Maquinario() {
     }
-    
-    public Maquinario(String nome, String marca, String ano, String chassi, String observacao) {
+
+    public Maquinario(int idMaquinario, String nome, String marca, String ano, String chassi, String observacao) {
+        this.idMaquinario = idMaquinario;
         this.nome = nome;
         this.marca = marca;
         this.ano = ano;
         this.chassi = chassi;
         this.observacao = observacao;
     }
-
+    
     public String getObservacao() {
         return observacao;
     }
@@ -65,13 +66,5 @@ public class Maquinario {
 
     public void setIdMaquinario(int idMaquinario) {
         this.idMaquinario = idMaquinario;
-    }
-
-    public int getIdMaquinairo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    
-    
-    
+    }  
 }

@@ -1,6 +1,7 @@
 package javafxmvc.model.domain;
 
 public class Peca {
+   private int idPeca;
    private String nome;
    private String marca;
    private String descricao;
@@ -36,6 +37,14 @@ public class Peca {
 
     public void setMarca(String marca) {
         this.marca = marca;
+    }
+
+    public int getIdPeca() {
+        return idPeca;
+    }
+
+    public void setIdPeca(int idPeca) {
+        this.idPeca = idPeca;
     }
    
 }

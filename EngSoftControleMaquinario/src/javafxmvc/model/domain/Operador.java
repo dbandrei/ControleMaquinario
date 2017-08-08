@@ -1,6 +1,7 @@
 package javafxmvc.model.domain;
 
 public class Operador {
+    private int idOperador;
     private String nome;
     private String cnh;
     private String telefone;
@@ -36,6 +37,14 @@ public class Operador {
 
     public void setCnh(String cnh) {
         this.cnh = cnh;
+    }
+
+    public int getIdOperador() {
+        return idOperador;
+    }
+
+    public void setIdOperador(int idOperador) {
+        this.idOperador = idOperador;
     }
     
 }
